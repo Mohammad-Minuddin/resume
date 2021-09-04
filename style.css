@@ -1,0 +1,373 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+        /*-----Main1 Work-----*/
+
+.main1{
+    width: 100%;
+    height: 280px;
+    background: #96B8D4;
+}
+.m1part1{
+    float: left;
+}
+.m1part1 img{
+  width: 250px;
+  height: 245px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin-top: 15px;
+  margin-left: 100px;
+}
+.m1part2{
+    float: left;
+    margin-top: 90px;
+    margin-left: 450px;
+}
+.h1part1{
+    letter-spacing: 2px;
+    color: white;
+}
+.h1part2{
+    letter-spacing: 7.8px;
+    color: white;
+}
+.m1part2 hr{
+    margin-top: 3px;
+    margin-bottom: 4px;
+    border-bottom: .1px solid rgb(252, 226, 219);
+}
+.m1part2 p{
+    font-size: 18px;
+    letter-spacing: 0.6px;
+    color: white;
+}
+.h1part1 .s1part1{
+    color: black;
+}
+.h1part2 .s1part2{
+    color: black;
+}
+
+            /*-----Main2 Work-----*/
+
+    .main2{
+        width: 100%;
+        height: 700px;
+        margin-top: 20px;
+    }
+    .m2part1{
+        width: 31.5%;
+        height: 100%;
+        background: white;
+        float: left;
+    }
+    .run1{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .run1 h2{
+        color: #5faef0;
+        margin-top: 40px;
+    }
+    .run1 hr{
+        width: 130px;
+        border-bottom: 3px solid rgb(224, 222, 222);
+        margin-bottom: 28px;
+    }
+
+            /*-----Map Work-----*/
+    .map{
+        width: 100%;
+        height: 45px;
+    }
+    .mapleft{
+        width: 10%;
+        float: left;
+    }
+    .mapleft img{
+        width: 20px;
+        color: teal;
+    }
+    .mapright{
+        width: 85%;
+        float: left;
+        font-size: 18px;
+        letter-spacing: 0.8px;
+        word-spacing: 1px;
+    }
+
+            /*-----Call Work-----*/
+    .call{
+        width: 100%;
+        height: 45px;
+    }
+    .callleft{
+        width: 10%;
+        float: left;
+    }
+    .call img{
+        width: 20px;
+    }
+    .callright{
+        width: 90%;
+        float: left;
+        letter-spacing: .5px;
+    }
+
+      /*-----Mail Work-----*/
+    .gmail{
+        width: 100%;
+        height: 45px;
+    }  
+    .gmailleft{
+        width: 10%;
+        float: left;
+    }
+    .gmailleft img{
+        width: 20px;
+    }
+    .gmailright{
+        width: 90%;
+        float: left;
+    }
+    .gmailright h3{
+        letter-spacing: 0.5px;
+    }
+
+        /*-----Web Work-----*/
+    .web{
+        width: 100%;
+        height: 45px;
+    }
+    .webleft{
+        width: 10%;
+        float: left;
+    }
+    .webleft img{
+        width: 22px;
+    }
+    .webright{
+        width: 90%;
+        float: left;
+    }
+    .webright p{
+        font-size: 20px;
+    }
+        /*-----Web Work End-----*/
+
+        .run2{
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .run2 h2{
+            color: #5faef0;
+            letter-spacing: .5px;
+            font-size: 20px;
+        }
+        .run2 hr{
+            width: 154px;
+            border-bottom: 2px solid rgb(224, 222, 222);
+            margin-bottom: 25px;
+        }
+
+        /*-----Facebook Work-----*/
+        .facebook{
+            width: 100%;
+            height: 40px;
+        }
+        .fbleft{
+            width: 12%;
+            float: left;
+        }
+        .fbleft img{
+            width: 25px;
+        }
+        .fbright{
+            width: 88%;
+            float: left;
+        }
+        .fbright a{
+            text-decoration: none;
+            font-size: 22px;
+            letter-spacing: 5px;
+            target:"_blank"
+        }
+        .fbright a:hover{
+            color: rgb(202, 163, 163);
+            font-size: 23px;
+        }
+
+        /*-----Telegram Work-----*/
+        .telegram{
+            width: 100%;
+            height: 40px;
+        }
+        .telegramleft{
+            width: 12%;
+            float: left;
+        }
+        .telegramleft img{
+            width: 25px;
+        }
+        .telegramright{
+            width: 88%;
+            float: left;
+        }
+        .telegramright a{
+            font-size: 21px;
+            letter-spacing: 4px;
+            text-decoration: none;
+        }
+        .telegramright a:hover{
+            color: rgb(202, 163, 163);
+            font-size: 22px;
+        }
+
+        /*-----Youtube Work-----*/
+        .youtube{
+            width: 100%;
+            height: 40px;
+        }
+        .youtubeleft{
+            width: 12%;
+            float: left;
+        }
+        .youtubeleft img{
+            width: 25px;
+            height: 21px;
+        }
+        .youtuberight{
+            width: 88%;
+            float: left;
+        }
+        .youtuberight a{
+            font-size: 20px;
+            letter-spacing: 5px;
+            text-decoration: none;
+        }
+        .youtuberight a:hover{
+            color: rgb(202, 163, 163);
+            font-size: 21px;
+        }
+        /* Youtube work end */
+  
+    .m2part2{
+        width: 0.05%;
+        height: 480px;
+        background: #96B8D4;
+        float: left;
+        margin-top: 30px;
+    }
+    .m2part3{
+        width: 68.45%;
+        height: 100%;
+        float: left;
+    }
+ 
+    /* About me */
+    .aboutme{
+        box-sizing: border-box;
+        width: 100%;
+        height: 220px;
+    }
+    .run3{
+        margin-left: 70px;
+    }
+    .aboutme h2{
+        color: #5faef0;
+        margin-top: 40px;
+        letter-spacing: 1px;
+    }
+    .aboutme hr{
+        width: 136px;
+        border-bottom: .1px solid rgb(252, 226, 219);
+    }
+    .aboutp1{
+        margin-top: 20px;
+        font-size: 18px;
+        padding-right: 100px;
+        text-align: justify;
+    }
+    .aboutp2{
+        margin-top: 10px;
+        font-size: 18px;
+        padding-right: 100px;
+        text-align: justify;
+    }
+
+    /* skill */
+    .skill{
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+    }
+    .skill h2{
+        color: #5faef0;
+        margin-top: 35px;
+        letter-spacing: 1px;
+    }
+    .run4{
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    .skill hr{
+        width: 92px;
+        border-bottom: .1px solid rgb(252, 226, 219);
+    }
+    .skill ul{
+        margin-left: 22px;
+        margin-top: 15px;
+        list-style-type: square;
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+
+    /* Table */
+    .run5{
+        margin-top: 30px;
+    }
+    table{
+        height: 120px;
+        margin: 0 auto;
+        border: 1px solid black;
+        width: 80%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th{
+        font-size: 20px;
+        border: 1px solid black;
+    }
+    tr,td{
+    border: 1px solid black;
+    font-size: 18px;
+    }
+
+    /* Footer */
+    .footer{
+        width: 100%;
+        height: 50px;
+        padding-top: 10px;
+        background-color: rgb(0, 0, 0, 0.6);
+    }
+    .footer p{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        word-spacing: 1px;
+        letter-spacing: 3px;
+    }
+    caption{
+        margin-bottom: 5px;
+    }
+
+    
